@@ -3,7 +3,9 @@ package com.rmlowe.maxrect;
 public class MaxRect {
     public static void main(String[] args) {
 //        int[] result = findLargestRectangle(new int[]{1, 3, 5, 3, 0, 2, 6, 6, 1, 0, 3, 6});
-        int[] result = findLargestRectangle(new int[]{1, 3, 5, 3, 2, 2, 3, 3, 1, 0, 3, 6});
+//        int[] result = findLargestRectangle(new int[]{1, 3, 5, 3, 2, 2, 3, 3, 1, 0, 3, 6});
+//        int[] result = findLargestRectangle(new int[]{1, 3, 2, 1, 2});
+        int[] result = findLargestRectangle(new int[]{1, 2, 1, 3, 2, 0, 1});
         System.out.println("Start: " + result[0]);
         System.out.println("End: " + result[1]);
         System.out.println("Area: " + result[2]);
